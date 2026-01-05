@@ -14,12 +14,22 @@ class TermsAndPrivacy extends StatelessWidget {
             TextSpan(text: "By signing up, you agree to our "),
             TextSpan(
               text: "Terms of Service",
-              style: TextStyle(color: Color(0xFF478832)),
+              style: TextStyle(
+                color: Color(0xFF478832),
+                decoration: TextDecoration.underline,
+                decorationThickness: 1.2,
+                decorationColor: Color(0xFF478832),
+              ),
             ),
             TextSpan(text: " and acknowledge that our "),
             TextSpan(
               text: "Privacy Policy",
-              style: TextStyle(color: Color(0xFF478832)),
+              style: TextStyle(
+                color: Color(0xFF478832),
+                decoration: TextDecoration.underline,
+                decorationThickness: 1.2,
+                decorationColor: Color(0xFF478832),
+              ),
             ),
             TextSpan(text: " applies to you."),
           ],
