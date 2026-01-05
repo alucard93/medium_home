@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatelessWidget {
+class SocialButton extends StatelessWidget {
   final String text;
   final String pathImage;
 
-  const CustomButton({super.key, required this.text, required this.pathImage});
+  const SocialButton({super.key, required this.text, required this.pathImage});
 
   @override
   Widget build(BuildContext context) {
