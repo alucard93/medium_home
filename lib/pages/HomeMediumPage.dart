@@ -28,11 +28,11 @@ class HomeMediumPage extends StatelessWidget {
                 child: Text(
                   "Join Medium.",
                   key: ValueKey("textTitle"),
-                  style: TextStyle(fontSize: 50, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.w500),
                 ),
               ),
 
-              SizedBox(height: 48),
+              SizedBox(height: 40),
 
               SocialButton(
                 text: 'Sign up with Google',
