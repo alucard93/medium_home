@@ -55,18 +55,21 @@ class HomeMediumPage extends StatelessWidget {
                   Expanded(
                     child: Divider(
                       thickness: 1,
-                      color: Colors.black,
+                      color: Color(0xFF717171),
                       key: ValueKey("dividerLeft"),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Text("Or, sign up with"),
+                    child: Text(
+                      "Or, sign up with",
+                      style: TextStyle(color: Color(0xFF717171)),
+                    ),
                   ),
                   Expanded(
                     child: Divider(
                       thickness: 1,
-                      color: Colors.black,
+                      color: Color(0xFF717171),
                       key: ValueKey("dividerRight"),
                     ),
                   ),
