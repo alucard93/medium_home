@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medium_home/widgets/custom_buttom.widget.dart';
 import 'package:medium_home/widgets/social_custom.widget.dart';
+import 'package:medium_home/widgets/terms_privacy.widget.dart';
 
 class HomeMediumPage extends StatelessWidget {
   const HomeMediumPage({super.key});
@@ -20,6 +21,8 @@ class HomeMediumPage extends StatelessWidget {
                 height: 40,
                 key: ValueKey("imageMedium"),
               ),
+
+              Spacer(),
 
               Center(
                 child: Text(
@@ -93,6 +96,12 @@ class HomeMediumPage extends StatelessWidget {
                   ),
                 ),
               ),
+
+              Spacer(),
+
+              TermsAndPrivacy(),
+
+              SizedBox(height: 20),
             ],
           ),
         ),
