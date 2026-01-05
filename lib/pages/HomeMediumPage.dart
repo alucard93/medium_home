@@ -87,14 +87,12 @@ class HomeMediumPage extends StatelessWidget {
                     children: [
                       TextSpan(
                         text: "Sign in",
-                        style: TextStyle(color: Colors.blue),
+                        style: TextStyle(color: Color(0xFF478832)),
                       ),
                     ],
                   ),
                 ),
               ),
-
-              
             ],
           ),
         ),
