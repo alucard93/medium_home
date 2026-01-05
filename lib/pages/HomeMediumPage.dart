@@ -40,7 +40,7 @@ class HomeMediumPage extends StatelessWidget {
               SizedBox(height: 16),
 
               SocialButton(
-                text: 'Sign up with email',
+                text: 'Sign up with Email',
                 pathImage: 'images/assets/email.png',
                 key: ValueKey("signupEmail"),
               ),
@@ -67,11 +67,9 @@ class HomeMediumPage extends StatelessWidget {
                       key: ValueKey("dividerRight"),
                     ),
                   ),
-
-                  SizedBox(height: 40),
                 ],
               ),
-
+              SizedBox(height: 40),
               CircleSocialButton(
                 pathImage: 'images/assets/facebook.png',
                 key: ValueKey("buttonFacebook"),
