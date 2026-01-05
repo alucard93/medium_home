@@ -69,11 +69,32 @@ class HomeMediumPage extends StatelessWidget {
                   ),
                 ],
               ),
+
               SizedBox(height: 40),
+
               CircleSocialButton(
                 pathImage: 'images/assets/facebook.png',
                 key: ValueKey("buttonFacebook"),
               ),
+
+              SizedBox(height: 40),
+
+              Center(
+                child: RichText(
+                  text: TextSpan(
+                    text: "Already have an account? ",
+                    style: TextStyle(color: Colors.black),
+                    children: [
+                      TextSpan(
+                        text: "Sign in",
+                        style: TextStyle(color: Colors.blue),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              
             ],
           ),
         ),
