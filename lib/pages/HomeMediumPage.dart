@@ -9,6 +9,7 @@ class HomeMediumPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(elevation: 0),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 24),

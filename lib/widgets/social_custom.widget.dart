@@ -6,16 +6,22 @@ class CircleSocialButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () {},
-      borderRadius: BorderRadius.circular(100),
-      child: Container(
-        padding: const EdgeInsets.all(15),
+    return Material(
+      color: Colors.transparent,
+      shape: const CircleBorder(),
+      child: Ink(
         decoration: BoxDecoration(
-          border: Border.all(),
           shape: BoxShape.circle,
+          border: Border.all(color: Colors.grey),
         ),
-        child: Center(child: Image.asset(pathImage, width: 35, height: 35)),
+        child: InkWell(
+          customBorder: const CircleBorder(),
+          onTap: () {},
+          child: Padding(
+            padding: const EdgeInsets.all(15),
+            child: Image.asset(pathImage, width: 35, height: 35),
+          ),
+        ),
       ),
     );
   }
